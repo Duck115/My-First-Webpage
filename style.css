@@ -67,6 +67,17 @@ ul{
         height: auto;
         
     }
+    .header button{
+        margin-top: 8px;
+        padding:5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #3882F6;
+        color: #eee;
+        border:none;
+        border-radius: 5px 5px 5px 5px;
+        
+    }
     
     .rando .container{
         display: flex;
