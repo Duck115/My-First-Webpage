@@ -59,6 +59,7 @@ ul{
         align-items: center;
         padding-bottom: 100px;
         
+        
        
     
     }
@@ -121,7 +122,10 @@ ul{
             margin: 50px;
             padding: 40px;
             border-radius: 5px 5px 5px 5px;
-            justify-content: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+            
         }
         .footer{
             color:#eee
@@ -133,3 +137,23 @@ ul{
         border-radius: 5px 5px 5px 5px;
         margin-bottom: 10px;
         }
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 500px;
+        }
+        .footer button{
+        margin-top: 8px;
+        padding:5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #3882F6;
+        color: #eee;
+        border-radius: 5px 5px 5px 5px;
+        border-style: solid;
+        border-color: #eee;
+        border-width: 2px;
+    
+    }
